@@ -33,6 +33,7 @@ import org.springframework.util.ReflectionUtils;
  */
 class SpringApplicationRunListeners {
 
+	private  int i;
 	private final Log log;
 
 	private final List<SpringApplicationRunListener> listeners;
